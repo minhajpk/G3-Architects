@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+  .display-flex{
+    display: flex;
+  }
+  .navber{
+    justify-content: space-between;
+    align-items: center;
+  }
+  .brand{
+    font-size: 3rem;
+    font-weight: 700px;
+  }
+  .nav-items{
+    list-style: none;
+    margin-right: 30px;
+  }
+  .nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #424242;
+  }
+  .navber, .banner{
+    max-width:1440px;
+    margin: 0 auto;
+  }
+  .banner-content{
+    max-width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+
+  }
+  .banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+  }
+  .btn-primary{
+    background-color: #FF900E;
+    padding: 20px 25px;
+    color:#FFFFFF;
+    border-radius: 16px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    
+    
+    width: 180px;
+    height: 64px;
+    
+  }
+ .image{
+    width: 100%;
+    margin: 50px;
+ }
+ main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main > section{
+  margin-top: 130px;
+  
+}
+.teams{
+  align-items: center;
+
+}
+
+.teams-image-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature{
+  max-width: 530px;
+  margin-left: 50px;
+  
+}
+.quick{
+  font-size: 45px;
+  color: #727272;
+  font-weight: 500px;
+}
+.our{
+  font-size: 45px;
+  font-weight: bold;
+}
+.feature-1{
+  font-size: 45px;
+  font-weight: bold;
+  color: #FF900E;
+}
+.feature-description{
+  font-size: 16px;
+  color: #727272;
+}
+#feature-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 21px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.feature-5{
+  gap: 140px;
+}
+.feature-card{
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.feature-card .feature-title{
+  font-size: 1.25em;
+  font-weight: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#Experince-badge{
+  padding: 40px 35px;
+  width: 300px;
+  height: 170px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: 500px;
+  margin-left: -92px;
+  margin-top: -100px;
+}
+#Years{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 100px;
+  
+  
+}
+.facts-description{
+  max-width: 540px;
+}
+.section-title{
+  font-size: 45px;
+  font-weight: bold;
+}
+  
+.fact-card{
+  border: 2px solid #FF900E;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact-number{
+  font-size: 45px;
+  font-weight: 600px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fact-name{
+  font-size: 1.25rem;
+  font-weight: 600px;
+  color: #727272;
+  margin-top: 10px;
+}
+.Sponspors-info{
+  max-width: 540px;
+  margin: 50px auto;
+  text-align: center;
+
+}
+.sponsor-title{
+  font-size: 45px;
+  font-weight: bold;
+}
+.sponsors-company{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 150px;
+  filter: grayscale(100%);
+}
+.rights{
+  max-width: 1440px;
+  margin-top: 100px;
+  margin-left: 240px;
+  margin-right: 240px;
+  text-align: center;
+  justify-content: center;
+  
+  background-color: #FFF4E7;
+  padding: 20px 38px;
+}
